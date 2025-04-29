@@ -23,4 +23,8 @@ python-dotenv
 numpy
 scikit-learn
 
+# For Structured output
 pydantic
+
+# For app
+streamlit

@@ -1,30 +1,42 @@
 # LangChain Core
-langchain
-langchain-core
+langchain>=0.0.267
+langchain-core>=0.1.0
 langchain_experimental
 langchain-chroma
+langchain_groq>=0.0.1
 chromadb
-faiss-cpu
+faiss-cpu>=1.7.4
 tiktoken
 wikipedia
 
-# Youtube transcript
-youtube_transcript_api
+# Youtube transcript and metadata
+youtube_transcript_api>=0.6.1
+pytube>=15.0.0
 
 # Hugging Face Integration
-langchain-huggingface
+langchain-huggingface>=0.0.6
 transformers
 huggingface-hub
+sentence-transformers>=2.2.2
 
 # Environment Variable Management
-python-dotenv
+python-dotenv>=1.0.0
 
-# Machine Learning Utilities
-numpy
+# Data Analysis and Visualization
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
 scikit-learn
+
+# Image Processing
+Pillow>=9.5.0
+
+# HTTP Requests
+requests>=2.31.0
 
 # For Structured output
 pydantic
 
 # For app
-streamlit
+streamlit>=1.22.0
